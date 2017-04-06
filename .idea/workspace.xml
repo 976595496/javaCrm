@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbb8cc61-37d4-462a-89c7-90636bf4a319" name="Default" comment="用户登录  查询所有员工信息">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/classes/domain/CrmClasses.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/coursetype/domain/CrmCourseType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/department/domain/CrmDepartment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/post/domain/CrmPost.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/staff/dao/StaffDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/staff/dao/impl/StaffDaoImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/staff/domain/CrmStaff.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/staff/service/StaffService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/staff/service/impl/StaffServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/staff/web/action/StaffAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/staff/web/intercepeter/LoginIntercepeter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/utils/MyStringUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/antlr-2.7.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/asm-3.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/asm-commons-3.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/asm-tree-3.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/backport-util-concurrent-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/commons-collections-3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/commons-fileupload-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/commons-io-2.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/commons-lang3-3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/commons-logging-1.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/dom4j-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/ehcache-1.5.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/freemarker-2.3.19.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/hibernate3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/javassist-3.12.0.GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/jta-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/log4j-1.2.17.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.28-bin.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/ognl-3.0.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/slf4j-api-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/spring-aop-4.0.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/spring-aspects-4.0.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/spring-beans-4.0.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/spring-context-4.0.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/spring-core-4.0.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/spring-expression-4.0.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/spring-jdbc-3.2.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/spring-orm-3.2.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/spring-test-3.2.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/spring-tx-3.2.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/spring-web-3.2.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/struts2-core-2.3.15.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/struts2-spring-plugin-2.3.15.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/lib/xwork-core-2.3.15.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/back.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/base.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/add_group.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/add_mx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/back.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/bg_.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/bianji.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/cc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/chakan.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/cjyh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/clean.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/count.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/cr.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/czmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/del.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/delete.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/diudan.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/dy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/exit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/fc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/find.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/fj.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/fwmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/fwsxhp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/gaojichaxun.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/gd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/genjin.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/gj_find.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/hlsxcp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/hpmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/hz.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/hzwc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/jiuye.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/js.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/jxtj.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/jz.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/lcjc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/lcmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/lcsxhp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/liuji.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/liushi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/modif.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/modify.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/my.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/new.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/pa.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/prin.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/print.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/printan.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/printmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/pz.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/qd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/qr.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/quanzhankai.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/quxiao.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/reset.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/save.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/scmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/sh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/shanchu.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/shengban.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/shenhe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/shiye.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/shuaxin.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/sjsb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/sq.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/td.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/tianjia.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/tjcp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/tjhp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/tongguo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/tongji.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/tuihui.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/txl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/view.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/xgmm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/xgmm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/xp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/xp1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/xz.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/xzcp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/xzhp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/yfh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/yijiao.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/zf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/zhengshi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/zkmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/button/zttj.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/calendar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/cd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/denglubg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/ej1_30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/ej1_32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/empty.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/enter.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/enter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/exit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/face.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/folderopen.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/globe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/head.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/imgfolder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/join.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/joinbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/login.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/minusbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/musicfolder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/nolines_minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/nolines_plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/page.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/plusbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/pwd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/question.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/reg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/result.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/right.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/rightbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/sysy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/tbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/tleft.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/top2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/topbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/topright.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/topright1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/trash.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/images/tright.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/classes/domain/CrmClasses.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/coursetype/domain/CrmCourseType.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/department/domain/CrmDepartment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/post/domain/CrmPost.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/staff/dao/StaffDao.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/staff/dao/impl/StaffDaoImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/staff/domain/CrmStaff.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/staff/service/StaffService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/staff/service/impl/StaffServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/staff/web/action/StaffAction.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/staff/web/intercepeter/LoginIntercepeter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/utils/MyStringUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/antlr-2.7.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/asm-3.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/asm-commons-3.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/asm-tree-3.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/backport-util-concurrent-2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/com.springsource.org.aopalliance-1.0.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/commons-collections-3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/commons-fileupload-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/commons-io-2.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/commons-lang3-3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/commons-logging-1.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/dom4j-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/ehcache-1.5.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/freemarker-2.3.19.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/hibernate-jpa-2.0-api-1.0.1.Final.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/hibernate3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/javassist-3.12.0.GA.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/jta-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/log4j-1.2.17.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/mysql-connector-java-5.1.28-bin.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/ognl-3.0.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/slf4j-api-1.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/spring-aop-4.0.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/spring-aspects-4.0.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/spring-beans-4.0.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/spring-context-4.0.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/spring-core-4.0.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/spring-expression-4.0.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/spring-jdbc-3.2.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/spring-orm-3.2.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/spring-test-3.2.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/spring-tx-3.2.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/spring-web-3.2.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/struts2-core-2.3.15.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/struts2-spring-plugin-2.3.15.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/lib/xwork-core-2.3.15.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/back.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/base.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/add_group.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/add_mx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/back.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/bg_.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/bianji.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/cc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/chakan.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/cjyh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/clean.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/count.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/cr.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/czmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/del.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/delete.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/diudan.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/dy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/exit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/fc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/find.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/fj.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/fwmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/fwsxhp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/gaojichaxun.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/gd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/genjin.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/gj_find.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/hlsxcp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/hpmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/hz.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/hzwc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/jiuye.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/js.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/jxtj.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/jz.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/lcjc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/lcmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/lcsxhp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/liuji.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/liushi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/modif.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/modify.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/my.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/new.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/pa.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/prin.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/print.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/printan.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/printmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/pz.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/qd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/qr.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/quanzhankai.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/quxiao.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/reset.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/save.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/scmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/sh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/shanchu.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/shengban.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/shenhe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/shiye.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/shuaxin.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/sjsb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/sq.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/td.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/tianjia.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/tjcp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/tjhp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/tongguo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/tongji.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/tuihui.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/txl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/view.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/xgmm.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/xgmm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/xp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/xp1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/xz.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/xzcp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/xzhp.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/yfh.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/yijiao.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/zf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/zhengshi.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/zkmx.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/button/zttj.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/calendar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/cd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/denglubg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/ej1_30.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/ej1_32.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/empty.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/enter.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/enter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/exit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/face.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/folder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/folderopen.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/globe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/head.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/imgfolder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/join.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/joinbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/line.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/login.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/minusbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/musicfolder.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/nolines_minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/nolines_plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/page.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/plusbottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/pwd.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/question.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/reg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/result.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/right.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/rightbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/sysy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/tbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/tleft.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/top2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/topbg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/topright.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/topright1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/trash.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/images/tright.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/javaCrm.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/.idea/artifacts/crm_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/.idea/dictionaries/zhangchenzhao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/config/spring/applicationContext-department.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/config/spring/applicationContext-post.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/config/spring/applicationContext-staff.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/config/spring/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/config/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/config/struts/jdbcInfo.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/config/struts/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/config/struts/struts-staff.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/crm.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/classes/domain/CrmClasses.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/coursetype/domain/CrmCourseType.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/department/domain/CrmDepartment.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/post/domain/CrmPost.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/com/zcz/crm/staff/domain/CrmStaff.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/spring/applicationContext-department.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/spring/applicationContext-post.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/spring/applicationContext-staff.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/spring/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/struts/jdbcInfo.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/struts/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/classes/struts/struts-staff.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/frame.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/frame/control.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/frame/left.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/frame/left1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/frame/left2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/frame/right.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/frame/top.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/staff/addStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/staff/editStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/staff/listStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/staff/register.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/staff/updPwd.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/pages/staff/updPwd.jsp.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/css/dtree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/css/sys.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/js/Calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/js/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/js/dtree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/classesm/addOrEditClass.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/classesm/getCalssState.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/classesm/listClass.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/classesm/showClass.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/classesm/uploadClass.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/coursetype/addOrEditCourse.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/coursetype/listCourse.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/department/addOrEditDepartment.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/department/listDepartment.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/error.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/follow/addOrEditFollow.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/frame/control.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/frame/left.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/frame/left1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/frame/left2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/frame/right.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/frame/top.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/graduate/addOrEditGraduate.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/graduate/listGraduate.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/post/addOrEditPost.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/post/listPost.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/refer/addOrEditRefer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/refer/addRefer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/refer/addStudent.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/refer/editRefer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/refer/listRefer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/refer/showRefer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/runoff/addRunoff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/runoff/listRunoff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/staff/addStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/staff/editStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/staff/listStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/staff/register.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/staff/updPwd.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/staff/updPwd.jsp.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/station/editStation.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/station/listStation.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/student/addOrEditStudent.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/student/listStudent.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/out/artifacts/crm_war_exploded/pages/student/showStudent.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/classes/domain/CrmClasses.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/classes/domain/CrmClasses.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/coursetype/domain/CrmCourseType.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/coursetype/domain/CrmCourseType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/department/domain/CrmDepartment.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/department/domain/CrmDepartment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/post/domain/CrmPost.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/post/domain/CrmPost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/staff/dao/StaffDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/staff/dao/impl/StaffDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/staff/domain/CrmStaff.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/staff/domain/CrmStaff.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/staff/service/StaffService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/staff/service/impl/StaffServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/staff/web/action/StaffAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/com/zcz/crm/staff/web/intercepeter/LoginIntercepeter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/src/utils/MyStringUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/classes/domain/CrmClasses.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/coursetype/domain/CrmCourseType.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/department/domain/CrmDepartment.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/post/domain/CrmPost.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/com/zcz/crm/staff/domain/CrmStaff.hbm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/spring/applicationContext-department.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/spring/applicationContext-post.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/spring/applicationContext-staff.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/spring/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/struts.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/struts/jdbcInfo.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/struts/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/classes/struts/struts-staff.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/frame.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/frame/control.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/frame/left.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/frame/left1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/frame/left2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/frame/right.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/frame/top.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/login.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/staff/addStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/staff/editStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/staff/listStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/staff/register.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/staff/updPwd.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/pages/staff/updPwd.jsp.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/css/dtree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/css/sys.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/js/Calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/js/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/js/dtree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/classesm/addOrEditClass.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/classesm/getCalssState.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/classesm/listClass.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/classesm/showClass.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/classesm/uploadClass.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/coursetype/addOrEditCourse.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/coursetype/listCourse.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/department/addOrEditDepartment.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/department/listDepartment.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/error.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/follow/addOrEditFollow.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/frame/control.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/frame/left.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/frame/left1.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/frame/left2.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/frame/right.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/frame/top.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/graduate/addOrEditGraduate.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/graduate/listGraduate.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/post/addOrEditPost.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/post/listPost.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/refer/addOrEditRefer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/refer/addRefer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/refer/addStudent.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/refer/editRefer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/refer/listRefer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/refer/showRefer.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/runoff/addRunoff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/runoff/listRunoff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/staff/addStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/staff/editStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/staff/listStaff.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/staff/register.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/staff/updPwd.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/staff/updPwd.jsp.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/station/editStation.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/station/listStation.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/student/addOrEditStudent.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/student/listStudent.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trunk/crm/web/pages/student/showStudent.jsp" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/Downloads/Android-Java-8-Stream-Example-master" value="2960378080000" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="61" />
+    <option name="y" value="23" />
+    <option name="width" value="1353" />
+    <option name="height" value="819" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaCrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaCrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaCrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaCrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaCrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaCrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaCrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaCrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zcz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaCrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javaCrm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trunk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zcz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.javaCrm">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="javaCrm" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.11" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/javaCrm/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$/trunk/crm">
+          <settings>
+            <option name="CONTEXT_PATH" value="/javaCrm" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_javaCrm" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50321" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.javaCrm" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbb8cc61-37d4-462a-89c7-90636bf4a319" name="Default" comment="" />
+      <created>1491442844246</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1491442844246</updated>
+      <workItem from="1491442845645" duration="538000" />
+      <workItem from="1491489473834" duration="227000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="765000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="61" y="23" width="1353" height="819" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17193948" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="用户登录  查询所有员工信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户登录  查询所有员工信息" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+</project>
